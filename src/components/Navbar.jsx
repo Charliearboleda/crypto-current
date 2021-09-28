@@ -9,7 +9,7 @@ import icon from '../images/crypto.png'
 const Navbar = () => {
     return (
         <div className='nav-container'>
-            <div classANme='logo-container'>
+            <div className='logo-container'>
                 <Avatar src={icon} size='large' />
                     <Typography.Title level={2} className='logo' >
                         <Link to='/'>Crypto Current </Link>
